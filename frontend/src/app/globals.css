@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #e9beef;
+    --foreground: #000000;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+  background-color: #e9beef;
+  color: #3b0150;
+}
+
+#centernavsection {
+  color: #3b0150;
+  width: 470px;
+  height: 70px;
+  margin-left: 40px;
+  border-radius: 20px;
+}
+
+#category-dropdown {
+  background-color: #ecd5f3;
+  color: #3b0150;
+}
+
+#listitem:hover {
+  background-color: #7f0fff;
+  color: rgb(255, 217, 0);
+}
+
+#home:hover{
+  text-underline-position: below;
+  text-decoration: underline;
+}
+#categorymenu:hover {
+  text-underline-position: below;
+  text-decoration: underline;
+}
+#newarrivals:hover {
+  text-underline-position: below;
+  text-decoration: underline;
+}
+#aboutus:hover {
+  text-underline-position: below;
+  text-decoration: underline;
+}
+#becomeaseller:hover {
+  text-underline-position: below;
+  text-decoration: underline;
+}
+#account:hover {
+  text-underline-position: below;
+  text-decoration: underline;
+}
