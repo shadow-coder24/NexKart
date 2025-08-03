@@ -72,3 +72,9 @@ body {
   text-underline-position: below;
   text-decoration: underline;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #3b0150 !important;
+  font-weight: bold;
+}
