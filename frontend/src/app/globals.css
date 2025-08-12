@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -77,4 +78,82 @@ body {
 .swiper-button-prev {
   color: #3b0150 !important;
   font-weight: bold;
+}
+
+#h2{
+  background-color: #2b003b;
+  color: #ecd5f3;
+}
+
+#categoryimage{
+  border: 3px solid #3b0150;
+  background-color: #e9beef;
+}
+
+#categoryimage:hover {
+  border: 4px solid #7f0fff;
+  background-color: #ecd5f3;
+  transition: ease-in-out 0.3s;
+  transform: scale(2.05);
+}
+
+#categorylink{
+  background-color: #3b0150;
+  color: #ecd5f3;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+#categorylink:hover {
+  background-color: #f4c542;
+  color: #3b0150;
+  transition: background-color 0.3s ease;
+}
+
+#productname{
+  color: #3b0150;
+}
+
+
+#dealimage{
+  border: 3px solid #3b0150;
+  background-color: #e9beef;
+}
+
+
+#trustsection{
+  border: #2b003b solid 3px;
+  color: #2b003b;
+  background-color: #2b003b;
+}
+
+#benefits{
+  
+  color: #2b003b ;
+  background-color: #f4d6f8;
+}
+
+#newsletter{
+  border: #2b003b solid 3px;
+  color: #2b003b;
+  background-color: #f7eafc;
+}
+
+#newsletter-heading{
+  color: #2b003b;
+}
+
+#subscribe-button{
+  background-color: #3b0150;
+  color: #ecd5f3;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+#subscribe-button:hover {
+  background-color: #f4c542;
+  color: #3b0150;
+  transition: background-color 0.3s ease;
 }
